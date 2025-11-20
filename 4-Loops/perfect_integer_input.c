@@ -72,6 +72,6 @@ int main() {
             printf(">> Lutfen tekrar deneyin.\n");
         }
     }
-    return 0; // Unutma!
+    return 0; // Unutma!!
 }
 
