@@ -1,13 +1,39 @@
-# --- SADECE COP DOSYALAR (KODLARIM DEGIL) ---
-
-# CLion'un her 'Run' tusuna bastiginda olusturdugu gecici insaat alani
-cmake-build-debug/
-cmake-build-release/
-.idea/
-
-# WSL/Linux derleme artiklari (Bunlar kod degil, makine ciktisi)
+# --- Derleme Ciktilari (Object Dosyalari) ---
+# Derleme sirasinda olusan ara dosyalar
 *.o
-*.out
+*.obj
+*.d
 
-# Kendi proje klasorlerim (Week-1 vs.) BURAYA YAZILMAZ.
-# Onlar Git'e gidecek.
+# --- Calistirilabilir Dosyalar (Linux ve Windows) ---
+# Linux'ta varsayilan GCC ciktisi
+*.out
+# Windows uyumlulugu icin (wine vb. kullanirsam)
+*.exe
+# Hata ayiklama sembol klasoru (Mac/Linux)
+*.dSYM/
+
+# --- Ozel Derleme Klasorleri ---
+# Kodlarinizi derlerken ciktilari bu klasorlere atmaliyim.
+# Ornek: gcc main.c -o build/program
+build/
+bin/
+out/
+Debug/
+Release/
+
+# --- Editor ve IDE Yapilandirmalari ---
+# VSCodium veya VS Code ayar klasoru
+.vscode/
+# Eger CLion veya IntelliJ kullanirsaniz
+.idea/
+*.code-workspace
+
+# --- Gecici Dosyalar ve Sistem Dosyalari ---
+# Ubuntu'da program cokunce olusan bellek dokumu
+core
+# Vim veya Nano editorlerinin gecici yedek dosyalari
+*.swp
+*~
+# Dosya sistemi onizleme dosyalari
+.DS_Store
+Thumbs.db

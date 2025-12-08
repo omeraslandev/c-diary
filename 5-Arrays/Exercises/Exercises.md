@@ -22,19 +22,4 @@ deyimi ile döngüden çıkılıyor. Döngü çıkısında eğer döngü değiş
 bulunmuş yani döngüden break deyimi ile çıkılmıştır.
 
 ### Alıştırma 5
-Dizinin elemanlarını küçükten büyüğe ya da büyükten küçüğe sıralamak için farklı algoritmalar
-kullanılabilir. Yanda, algısal karmaşıklığı çok yüksek olmayan "kabarcık sıralaması" isimli algoritma ile bir
-dizi sıralanıyor.
-
-### Alıştırma 6
-Dizinin ters çevrilmesi için dizi boyutunun yarısı kadar dönen bir döngü içinde, dizinin
-bastan n. elemanı ile sondan n. elemanı takas ediliyor.
-
-### Alıştırma 7
-bir dizinin en büyük ikinci elemanının değeri bulunuyor.
-
-### Alıştırma 8
-yalnızca bir dizinin içinde tek olan elemanların değerleri ekrana yazdırılıyor.
-
-### Alıştırma 9
-Sıralı iki dizi, bir sıralı dizi biçiminde birleştiriliyor.
+yalnızca bir dizinin içinde tek bir tane olan elemanların değerleri ekrana yazdırılıyor.
