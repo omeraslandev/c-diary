@@ -13,7 +13,7 @@
 *.dSYM/
 
 # --- Ozel Derleme Klasorleri ---
-# Kodlarinizi derlerken ciktilari bu klasorlere atmaliyim.
+# Kodlarimi derlerken ciktilari bu klasorlere atmaliyim.
 # Ornek: gcc main.c -o build/program
 build/
 bin/
